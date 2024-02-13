@@ -257,10 +257,7 @@ const animationTimeline = () => {
     })
     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
     .to(
-        ".last-smile",
-        0.5, {
-            rotation: 90,
-        },
+        ".last-smile"
         "+=1"
     );
 
